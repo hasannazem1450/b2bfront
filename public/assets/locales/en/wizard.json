@@ -1,0 +1,49 @@
+{
+    "Previous": "Previous",
+    "Next": "Next",
+    "Submit": "Submit",
+
+    "General Information": "General Information",
+    "Enter Your General Information.": "Enter Your General Information.",
+    "Company Name": "Company Name",
+    "Company Type": "Company Type",
+    "National ID": "National ID",
+    "Rating Executor": "Rating Executor",
+    "Status": "Status",
+
+    "ID Information": "ID Information",
+    "Enter Your ID Information.": "Enter Your ID Information.",
+    "Business ID": "Business ID",
+    "CEO/Owner": "CEO/Owner",
+    "Registration Number": "Registration Number",
+    "Economic Code": "Economic Code",
+    "Company Rating": "Company Rating",
+    "Activity License Number": "Activity License Number",
+    
+    "Contact Information": "Contact Information",
+    "Enter Your Contact Information.": "Enter Your Contact Information.",
+    "CEO Mobile": "CEO Mobile",
+    "CEO Email": "CEO Email",
+    "About Us": "About Us",
+    "Phone Number": "Phone Number",
+    "Fax": "Fax",
+    "Email": "Email",
+    "Website": "Website",
+    "Province": "Province",
+    "City": "City",
+    "Industrial Park": "Industrial Park",
+    "Address": "Address",
+
+
+    "Member Information": "Member Information",
+    "Enter Your Member Information.": "Enter Your Member Information.",
+    "Member Name": "Member Name",
+    "industrial": "Industrial",
+    "service": "Service",
+    "enginearingService": "Enginearing Service",
+    "selectbussinessType" : "Select Business Type",
+    "newInformation" : "news",
+    "newInformationFormTitle" : "Enter news information",
+    "product" : "Product"
+   
+}

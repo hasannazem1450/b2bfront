@@ -1,0 +1,108 @@
+.grBOFc{
+    direction: rtl !important;   
+}
+.carsuel-container
+{
+  box-shadow: 0 4px 8px 0 #000000ad;
+  border-radius: 15px;
+  background: linear-gradient(-118deg, #4373a0, #7a8ea0);
+  padding: 20px;
+  margin: 10px;
+}
+.cardItem {
+    box-shadow: 0 4px 8px 0 #000000ad;
+    transition: 0.3s;
+    height: 130px;
+
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #ececec;
+    margin-bottom: 35px;
+
+  }
+  .btn-slide-left {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 25px;
+    transform: rotate(90deg);
+   border-radius: 10px;
+    background: #ececec;
+    box-shadow: 0 0px 5px 0 #00000056;
+    position: absolute;
+    display: flex;
+    margin-left : 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .btn-slide-right {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 25px;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    background: #ececec;
+    box-shadow: 0 0px 5px 0 #00000056;
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    margin-right : 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .btn-slide-right:hover {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 25px;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    background: #f3f3f3;
+    box-shadow: 0 0px 5px 0 #00000056;
+    position: absolute;
+    display: flex;
+
+    margin-right : 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .btn-slide-left:hover {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 25px;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    background: #f3f3f3;
+    box-shadow: 0 0px 5px 0 #00000056;
+    position: absolute;
+    display: flex;
+
+    margin-left : 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }  
+  .next-slide {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-60%);
+  }
+  .item_texts{
+    width: 100%;
+        line-break: anywhere;
+         text-align: center;
+         padding: 5px;
+         
+  }
+  .product-title{
+    font-size: 25px;
+    color: #ececec;
+  }
+  .cardItemImage{
+  
+    padding: 22px;
+    max-height: 200PX;
+ 
+  }

@@ -1,0 +1,42 @@
+{
+    "1": {
+        "name": "product1",
+        "brand": "brand1",
+        "description": "description of product1"
+    },
+    "2": {
+        "name": "product2",
+        "brand": "brand2",
+        "description": "description of product2"
+    },
+    "3": {
+        "name": "product3",
+        "brand": "brand3",
+        "description": "description of product3"
+    },
+    "4": {
+        "name": "product4",
+        "brand": "brand4",
+        "description": "description of product4"
+    },
+    "5": {
+        "name": "product5",
+        "brand": "brand5",
+        "description": "description of product5"
+    },
+    "6": {
+        "name": "product6",
+        "brand": "brand6",
+        "description": "description of product6"
+    },
+    "7": {
+        "name": "product7",
+        "brand": "brand7",
+        "description": "description of product7"
+    },
+    "8": {
+        "name": "product8",
+        "brand": "brand8",
+        "description": "description of product8"
+    }
+}

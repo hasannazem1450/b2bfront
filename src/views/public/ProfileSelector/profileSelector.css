@@ -1,0 +1,51 @@
+.centerInDiv{
+
+
+    width: 100%;
+    font-size: large;
+margin-top: 20px;
+height: 45px;
+margin-left: 5px;
+}
+
+.profileChoseCard_icon{
+  width: 75px;
+  margin-top: 50px
+}
+.profileChoseCard_personal{
+    box-shadow: 0 2px 11px 0 #4664a7ad;
+    transition: 0.3s;
+    max-width: 320px;
+ 
+     border-radius: 12px;
+    padding: 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+  .profileChoseCard_personal:hover {
+    box-shadow: 0 4px 10px 0 #0237a8ad;
+  }
+
+  .profileChoseCard_legal{
+    box-shadow: 0 2px 11px 0 #46803ecb;
+    transition: 0.3s;
+    max-width: 320px;
+     border-radius: 12px;
+    padding: 2px;
+    margin-right:40px;
+    margin-left: 40px;
+
+}
+  .profileChoseCard_legal:hover {
+    box-shadow: 0 4px 10px 0 #1f8112cb;
+  }
+  .choseCard{
+    margin-top: 15px;
+  }
+  .choseProfileContainer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  

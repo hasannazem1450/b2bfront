@@ -1,0 +1,251 @@
+/*================================================================================
+	Item Name:  - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+/*******************************************************************/
+/* import theme variables */
+@import "../../@core/scss/base/bootstrap-extended/include";
+@import "../../@core/scss/base/components/include";
+/*******************************************************************/
+/* vazirmatn font */
+@import "../fonts/Vazirmatn/normal/Vazirmatn-RD-UI-font-face.css";
+@import "../fonts/Vazirmatn/farsi-digit/Vazirmatn-RD-UI-FD-font-face.css";
+
+:not(i) {
+  html[lang="en"] & {
+    font-family: "vazirmatn" !important;
+  }
+
+  html[lang="fa"] & {
+    font-family: "vazirmatn-FD" !important;
+  }
+}
+/*******************************************************************/
+/* vertical-layout */
+/* navigation */
+.vertical-layout {
+  .main-menu {
+    .navbar-header {
+      .navbar-brand {
+        margin-top: 0.25rem; // adjust vertical align navbar brand
+        .brand-text {
+          color: $theme-dark-headings-color; // change brand text color
+        }
+      }
+      .nav-toggle {
+        .modern-nav-toggle {
+          margin: 1rem 0; // adjust vertical align toggle button
+        }
+        .nav-link svg {
+          color: $theme-dark-headings-color !important; // change navigation toggle button color
+        }
+      }
+    }
+    .navigation {
+      > li:first-child {
+        margin-top: 2.05rem !important; // add more space before navigation items
+      }
+      > li {
+        &.open:not(.menu-item-closing),
+        &.sidebar-group-active {
+          > a {
+            background: linear-gradient(
+              118deg,
+              rgba($primary, 1),
+              rgba($primary, 0.7)
+            ) !important; // change active navigation item background color
+            border-radius: 4px !important;
+          }
+        }
+      }
+      li.nav-item {
+        a:hover {
+          background: linear-gradient(
+            118deg,
+            rgba($primary, 1),
+            rgba($primary, 0.7)
+          ); // add navigation item background color hover
+          border-radius: 4px;
+          > * {
+            transform: none !important; // disable navigation item transform on hover
+          }
+        }
+        .menu-item {
+          position: relative;
+          top: 2px; // adjust position
+        }
+      }
+      .active {
+        box-shadow: none !important; // disable acive navigation item box shodow
+        .menu-title,
+        i,
+        svg {
+          color: $theme-dark-headings-color !important; // change active navigation items icon color
+        }
+      }
+    }
+  }
+  .semi-dark-layout {
+    .main-menu-content {
+      .navigation-main {
+        .nav-item {
+          a {
+            color: $theme-dark-headings-color !important; // change navigation items color
+          }
+        }
+      }
+    }
+  }
+}
+
+/* horizontal-layout */
+/* navigation */
+.horizontal-menu-wrapper {
+  #main-menu-navigation {
+    .nav-item:not(.dropdown):not(.dropdown-submenu) {
+      a.nav-link.active {
+        box-shadow: none !important; // disable acive navigation item box shodow
+      }
+    }
+  }
+}
+/*******************************************************************/
+/* auth pages */
+.auth-wrapper {
+  &.auth-basic {
+    .auth-inner {
+      &:before,
+      &:after {
+        background-image: none !important; // remove auth pages background image;
+      }
+    }
+  }
+}
+/*******************************************************************/
+/* spinner */
+.fallback-spinner {
+  .loading {
+    .effect-1,
+    .effect-2,
+    .effect-3 {
+      border-left: 3px solid $primary !important; // change spinner color
+    }
+  }
+}
+/*******************************************************************/
+/* scroll-top */
+.scroll-top {
+  bottom: 6% !important; // adjust position
+}
+/*******************************************************************/
+
+.dark-layout .header-navbar .navbar-container ul.navbar-nav li svg.ficon {
+  color: $theme-dark-headings-color;
+}
+
+#main-menu-navigation {
+  justify-content: center;
+}
+
+.ecommerce-application {
+  @media (min-width: 992px) {
+    .grid-view {
+      grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    }
+  }
+  .categories,
+  .brands {
+    .scrollbar-container {
+      height: 10.5rem;
+    }
+  }
+  .ps__rail-y {
+    width: 6px;
+
+    &:hover {
+      > .ps__thumb-y {
+        width: 6px;
+      }
+    }
+  }
+
+  .MuiSlider-markLabel {
+    color: unset;
+  }
+}
+
+.main-menu .navbar-header .navbar-brand .brand-logo img {
+  max-width: 35px;
+}
+
+.form-select.is-valid,
+.form-control.is-valid {
+  border-color: #28c76f !important;
+}
+
+.horizontal-layout.homepage .app-content {
+  padding-top: 2rem !important;
+}
+
+.semi-dark-layout .header-navbar {
+  background-color: $white !important;
+}
+
+.slider {
+
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 4.5rem;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+
+.horizontal-layout.homepage .content {
+  min-height: calc(100% - 3.35rem - 39rem) !important;
+}
+
+// @media (min-width: 768px) {
+//   .horizontal-layout.horizontal-menu .horizontal-menu-wrapper .header-navbar {
+//     display: flex !important;
+//   }
+// }
+
+@media (max-width: 1200px) {
+  .horizontal-menu .horizontal-menu-wrapper {
+    z-index: 999 !important;
+  }
+}
+
+.dropdown-language .country-flag {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+#nprogress .bar {
+  background: $primary !important;
+  height: 5px !important;
+}
+
+#user-profile .profile-header .profile-img-container {
+  bottom: 1rem !important;
+}
